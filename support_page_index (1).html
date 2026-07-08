@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support — Dream Weaver Within</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0b0805;
+    --panel: #14100b;
+    --gold: #c9a668;
+    --gold-bright: #e2c894;
+    --cream: #ede3cf;
+    --muted: #9c8f78;
+    --rule: #3a3024;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    background-image:
+      radial-gradient(1px 1px at 12% 18%, rgba(226,200,148,0.55) 0%, transparent 100%),
+      radial-gradient(1px 1px at 82% 12%, rgba(226,200,148,0.4) 0%, transparent 100%),
+      radial-gradient(1.5px 1.5px at 68% 74%, rgba(226,200,148,0.5) 0%, transparent 100%),
+      radial-gradient(1px 1px at 30% 82%, rgba(226,200,148,0.35) 0%, transparent 100%),
+      radial-gradient(1px 1px at 90% 60%, rgba(226,200,148,0.4) 0%, transparent 100%),
+      radial-gradient(1px 1px at 45% 40%, rgba(226,200,148,0.3) 0%, transparent 100%);
+    color: var(--cream);
+    font-family: 'Cormorant Garamond', serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 72px 24px 48px;
+  }
+
+  .page {
+    width: 100%;
+    max-width: 620px;
+  }
+
+  .crest {
+    text-align: center;
+    color: var(--gold);
+    font-size: 22px;
+    letter-spacing: 0.3em;
+    margin-bottom: 18px;
+    opacity: 0.85;
+  }
+
+  h1 {
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 0.02em;
+    color: var(--gold-bright);
+    margin: 0 0 6px;
+  }
+
+  .subtitle {
+    text-align: center;
+    font-style: italic;
+    color: var(--muted);
+    font-size: 19px;
+    margin: 0 0 44px;
+  }
+
+  .rule {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 40px 0;
+  }
+
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 32px 36px;
+  }
+
+  .panel + .panel {
+    margin-top: 22px;
+  }
+
+  h2 {
+    font-family: 'Cinzel', serif;
+    font-weight: 500;
+    font-size: 21px;
+    color: var(--gold);
+    letter-spacing: 0.04em;
+    margin: 0 0 14px;
+  }
+
+  p {
+    font-size: 19px;
+    line-height: 1.6;
+    color: var(--cream);
+    margin: 0 0 12px;
+  }
+
+  .email-line {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 18px;
+  }
+
+  a.email {
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    color: var(--gold-bright);
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 2px;
+    transition: border-color 0.2s ease, color 0.2s ease;
+  }
+
+  a.email:hover {
+    color: #fff;
+    border-color: var(--gold);
+  }
+
+  .faq-item {
+    margin-bottom: 22px;
+  }
+
+  .faq-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .faq-q {
+    font-family: 'Cinzel', serif;
+    font-size: 16px;
+    color: var(--gold);
+    letter-spacing: 0.02em;
+    margin-bottom: 6px;
+  }
+
+  .faq-a {
+    font-size: 18px;
+    color: var(--muted);
+    margin: 0;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 56px;
+    color: var(--muted);
+    font-size: 15px;
+    letter-spacing: 0.03em;
+  }
+
+  footer .brand {
+    color: var(--gold);
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    display: block;
+    margin-top: 8px;
+  }
+
+  @media (max-width: 480px) {
+    h1 { font-size: 32px; }
+    .panel { padding: 26px 22px; }
+  }
+</style>
+</head>
+<body>
+  <div class="page">
+    <div class="crest">✦ ☾ ✦</div>
+    <h1>Support</h1>
+    <p class="subtitle">for Dream Weaver Within</p>
+
+    <div class="panel">
+      <h2>Get in touch</h2>
+      <p>Have a question, hit a snag, or just want to share what your dreams have been telling you? We read every message.</p>
+      <div class="email-line">
+        <a class="email" href="mailto:hello@maketodaymagical.com.au">hello@maketodaymagical.com.au</a>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>Common questions</h2>
+
+      <div class="faq-item">
+        <div class="faq-q">How do I cancel my subscription?</div>
+        <p class="faq-a">Subscriptions are managed through the App Store. Open Settings → your name → Subscriptions on your iPhone, select Dream Weaver Within, and choose Cancel Subscription.</p>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">I didn't get my free trial — what happened?</div>
+        <p class="faq-a">Free trials are only available once per Apple ID. If you've previously subscribed or trialled the app, a new trial period won't be offered on the same account.</p>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">My dreams didn't save — can I get them back?</div>
+        <p class="faq-a">Dreams are saved to your account automatically when you're signed in. If something looks missing, email us with your account details and we'll help track it down.</p>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">Can I use the app on more than one device?</div>
+        <p class="faq-a">Yes — sign in with the same account on any device to access your dream journal and interpretations.</p>
+      </div>
+    </div>
+
+    <hr class="rule">
+
+    <footer>
+      Your dreams are messages — from you, for you.
+      <span class="brand">MAKE TODAY MAGICAL</span>
+    </footer>
+  </div>
+</body>
+</html>
